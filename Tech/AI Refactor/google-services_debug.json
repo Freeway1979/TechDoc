@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996934752866",
+    "firebase_url": "https://chancellor-bf19d.firebaseio.com",
+    "project_id": "chancellor-bf19d",
+    "storage_bucket": "chancellor-bf19d.appspot.com.debug"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996934752866:android:9e273d6db15167d7",
+        "android_client_info": {
+          "package_name": "com.firewalla.chancellor.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996934752866-9uo5nbdlt5oshce4cbg8nqelbhecimes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firewalla.chancellor.debug",
+            "certificate_hash": "5fdd0ded58e206ffdd304752e83fd4f20a1986c4"
+          }
+        },
+        {
+          "client_id": "996934752866-rg5hv7kgcsvd76mqetcs77hlsc1gm36j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKZDwHjjWKju5d36B7nrS8haTg8nAPDm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996934752866-rg5hv7kgcsvd76mqetcs77hlsc1gm36j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
