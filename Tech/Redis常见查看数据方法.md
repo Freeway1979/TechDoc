@@ -164,3 +164,15 @@ MONITOR
 3. 用对应类型的查看命令（如 `GET` 对应字符串，`HGETALL` 对应哈希）获取数据。
 
 根据数据类型选择合适的命令，可高效查看和调试 Redis 中的数据。
+
+
+
+## 常见命令
+```
+rc keys policy:tag:* | while read KEY; do echo $KEY; (rc hget $KEY ssidPSK | jq); done;
+```
+>  Find all keys starting with policy:tag:.
+For each key found:
+Display the key name.
+Fetch the Wi-Fi password/configuration data (ssidPSK).
+Format that data as clean JSON.
